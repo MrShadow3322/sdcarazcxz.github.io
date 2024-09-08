@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.balance {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
